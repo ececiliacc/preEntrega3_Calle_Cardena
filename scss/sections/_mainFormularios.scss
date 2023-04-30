@@ -2,7 +2,7 @@
     h3 {
         text-align: center;
         padding-top: 50px;
-        color: #1dd3b0;
+        color: $verde-suave;
         font-family: $texto;
         font-weight: bold;
         padding-bottom: 20px;
@@ -36,4 +36,5 @@
         background-color: $color-check;
         border-color: $verde-intenso;
       }
-}
+
+    }
