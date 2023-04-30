@@ -18,7 +18,7 @@ header {
   .main__banner-Principal {
     width: 100%;
     height: 650px;
-    background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%), url("./../../recursos/img/principal.jpg");
+    background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%), url("https://res.cloudinary.com/dv3jsid6j/image/upload/v1682865009/proyecto_protectora/principal_wtscc0.jpg");
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -26,7 +26,7 @@ header {
   .main__banner-Hacemos {
     width: 100%;
     height: 550px;
-    background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%), url("./../../recursos/img/portada1.jpg");
+    background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%), url("https://res.cloudinary.com/dv3jsid6j/image/upload/v1682865009/proyecto_protectora/portada1_adtb5z.jpg");
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -34,7 +34,7 @@ header {
   .main__banner-Adopta {
     width: 100%;
     height: 550px;
-    background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%), url("./../../recursos/img/portada2.jpg");
+    background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%), url("https://res.cloudinary.com/dv3jsid6j/image/upload/v1682865008/proyecto_protectora/portada2_ef15q2.jpg");
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -42,7 +42,7 @@ header {
   .main__banner-Apadrina {
     width: 100%;
     height: 550px;
-    background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%), url("./../../recursos/img/portada3.jpg");
+    background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%), url("https://res.cloudinary.com/dv3jsid6j/image/upload/v1682865009/proyecto_protectora/portada3_zedsit.jpg");
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -50,7 +50,7 @@ header {
   .main__banner-Voluntario {
     width: 100%;
     height: 550px;
-    background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%), url("https://res.cloudinary.com/dv3jsid6j/image/upload/v1682860018/proyecto_protectora/portada4_ohsliz.jpg");
+    background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%), url("https://res.cloudinary.com/dv3jsid6j/image/upload/v1682865009/proyecto_protectora/portada4_ncyifu.jpg");
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
