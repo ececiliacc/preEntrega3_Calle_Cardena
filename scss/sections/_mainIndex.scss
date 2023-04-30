@@ -1,0 +1,39 @@
+.main{
+    &__video{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding-bottom: 20px;
+        margin-right: 10px;
+    }
+
+    &__video p{
+        line-height: 1.5;
+        color: #f8f9f7;
+        font-family: "Montserrat Alternates", sans-serif;
+        font-family: "Open Sans", sans-serif;
+        font-family: "Poppins", sans-serif;
+        font-family: "Rammetto One", cursive;
+        font-family: "Slackey", cursive;
+        text-align: justify;
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 550px){
+
+    .main__video{
+        flex-direction: column;
+    }
+
+    .main_iframe{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 1rem;
+    }
+}

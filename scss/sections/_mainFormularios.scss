@@ -1,0 +1,39 @@
+.main{
+    h3 {
+        text-align: center;
+        padding-top: 50px;
+        color: #1dd3b0;
+        font-family: $texto;
+        font-weight: bold;
+        padding-bottom: 20px;
+        font-size: 35px;
+      }
+    
+      .form-label{
+        color: $beige;
+      }
+
+      .boton-form{
+        background-color: $color-boton!important;
+        border-color: $azul!important;
+        font-size: 20px;
+      }
+
+      &__voluntariado-p{
+        color: $beige;
+        font-size: 20px;
+        font-family: "Josefin Sans", sans-serif;
+        text-align: justify;
+      }
+
+      .form-check {
+        display: flex;
+        color: $beige;
+        margin-left: 1.5rem;
+      }
+      
+      .form-check-input:checked {
+        background-color: $color-check;
+        border-color: $verde-intenso;
+      }
+}

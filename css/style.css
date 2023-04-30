@@ -1,0 +1,254 @@
+/* tipografia */
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px; }
+
+header {
+  min-height: 10vh; }
+  header .navbar {
+    background-color: #AAF683; }
+
+.main {
+  background-color: #3C1642;
+  min-height: 80vh; }
+  .main__banner-Principal {
+    width: 100%;
+    height: 650px;
+    background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%), url("./../../recursos/img/principal.jpg");
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative; }
+  .main__banner-Hacemos {
+    width: 100%;
+    height: 550px;
+    background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%), url("./../../recursos/img/portada1.jpg");
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative; }
+  .main__banner-Adopta {
+    width: 100%;
+    height: 550px;
+    background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%), url("./../../recursos/img/portada2.jpg");
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative; }
+  .main__banner-Apadrina {
+    width: 100%;
+    height: 550px;
+    background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%), url("./../../recursos/img/portada3.jpg");
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative; }
+  .main__banner-Voluntario {
+    width: 100%;
+    height: 550px;
+    background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%), url("https://res.cloudinary.com/dv3jsid6j/image/upload/v1682860018/proyecto_protectora/portada4_ohsliz.jpg");
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative; }
+  .main h1 {
+    color: #670367;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: "Yeseva One", cursive; }
+  .main .main__titulo2 {
+    color: #AFFC41;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 50px;
+    font-family: "Josefin Sans", sans-serif;
+    padding-bottom: 15px; }
+
+@media (max-width: 550px) {
+  .main__banner-Principal {
+    background-position: center; }
+  .main__banner-Hacemos {
+    background-position: center; }
+  .main__banner-Adopta {
+    background-position: center; }
+  .main__banner-Apadrina {
+    background-position: center; }
+  .main__banner-Voluntario {
+    background-position: center; }
+  .main h1 {
+    display: flex;
+    width: 99%;
+    font-size: 50px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center; } }
+
+.main__video {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-right: 10px; }
+
+.main__video p {
+  line-height: 1.5;
+  color: #f8f9f7;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rammetto One", cursive;
+  font-family: "Slackey", cursive;
+  text-align: justify;
+  margin: 1rem; }
+
+@media (max-width: 550px) {
+  .main__video {
+    flex-direction: column; }
+  .main_iframe {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem; } }
+
+.main {
+  /* Modal */ }
+  .main__img-Apadrina {
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 70px;
+    transform: rotate(353deg);
+    border: 4px solid #82e273;
+    border-radius: 15px; }
+  .main .modal-header {
+    background-color: #811485c6; }
+
+@media (max-width: 550px) {
+  .main__img-Apadrina {
+    width: 200px;
+    height: 200px;
+    transform: rotate(0deg); } }
+
+.main .card .card-body {
+  padding: 20px;
+  text-align: center;
+  align-items: center; }
+
+.main .card .card-body p {
+  line-height: 1.5;
+  color: #6f6666;
+  font-family: "Josefin Sans", sans-serif; }
+
+.main .card .card-body h5 {
+  font-weight: 700;
+  color: #1dd3b0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px; }
+
+.main .card-body ul {
+  list-style: none;
+  margin-right: 25px;
+  color: #6f6666; }
+
+.main .col {
+  padding-bottom: 20px; }
+
+.main .col-12 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem; }
+
+.main .footer-boton {
+  display: flex;
+  justify-content: center; }
+
+.main .boton {
+  background-color: #3bdc23 !important;
+  border: solid;
+  border-color: #11008e !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; }
+
+.main h3 {
+  text-align: center;
+  padding-top: 50px;
+  color: #1dd3b0;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-size: 35px; }
+
+.main .form-label {
+  color: #f8f9f7; }
+
+.main .boton-form {
+  background-color: #3bdc23 !important;
+  border-color: #11008e !important;
+  font-size: 20px; }
+
+.main__voluntariado-p {
+  color: #f8f9f7;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: justify; }
+
+.main .form-check {
+  display: flex;
+  color: #f8f9f7;
+  margin-left: 1.5rem; }
+
+.main .form-check-input:checked {
+  background-color: #96e08a;
+  border-color: #AFFC41; }
+
+.footer {
+  background-color: #AAF683;
+  overflow: hidden;
+  min-height: 10vh;
+  padding-top: 30px; }
+  .footer__Section {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center; }
+  .footer__Contenedor {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-right: 10px; }
+    .footer__Contenedor p {
+      line-height: 1.5;
+      color: #2e2c2c;
+      font-size: 20px; }
+  .footer__Social {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap; }
+    .footer__Social img {
+      width: 45px;
+      flex-direction: row;
+      margin-left: 20px; }
