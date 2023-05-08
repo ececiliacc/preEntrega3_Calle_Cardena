@@ -1,40 +1,40 @@
-.main{
-    h3 {
-        text-align: center;
-        padding-top: 50px;
-        color: $verde-suave;
-        font-family: $texto;
-        font-weight: bold;
-        padding-bottom: 20px;
-        font-size: 35px;
-      }
-    
-      .form-label{
-        color: $beige;
-      }
+.main {
+  h3 {
+    text-align: center;
+    padding-top: 50px;
+    color: $verde-suave;
+    font-family: $texto;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 35px;
+  }
 
-      .boton-form{
-        background-color: $color-boton!important;
-        border-color: $azul!important;
-        font-size: 20px;
-      }
+  .form-label {
+    color: $beige;
+  }
 
-      &__voluntariado-p{
-        color: $beige;
-        font-size: 20px;
-        font-family: "Josefin Sans", sans-serif;
-        text-align: justify;
-      }
+  .boton-form {
+    background-color: $color-boton !important;
+    border-color: $azul !important;
+    font-size: 20px;
+  }
 
-      .form-check {
-        display: flex;
-        color: $beige;
-        margin-left: 1.5rem;
-      }
-      
-      .form-check-input:checked {
-        background-color: $color-check;
-        border-color: $verde-intenso;
-      }
+  &__voluntariado-p {
+    color: $beige;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: justify;
+  }
 
-    }
+  .form-check {
+    display: flex;
+    color: $beige;
+    margin-left: 1.5rem;
+  }
+
+  .form-check-input:checked {
+    background-color: $color-check;
+    border-color: $verde-intenso;
+  }
+
+}

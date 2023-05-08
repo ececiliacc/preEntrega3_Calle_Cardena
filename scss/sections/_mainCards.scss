@@ -1,52 +1,52 @@
-.main{
-    .card .card-body {
-        padding: 20px;
-        text-align: center;
-        align-items: center;
-      }
-    
-      .card .card-body p {
-        line-height: 1.5;
-        color: $gris;
-        font-family: $texto;
-      }
+.main {
+  .card .card-body {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+  }
 
-      .card .card-body h5 {
-        font-weight: 700;
-        color: $verde-suave;
-        font-family: $texto;
-        font-size: 25px;
-      }
+  .card .card-body p {
+    line-height: 1.5;
+    color: $gris;
+    font-family: $texto;
+  }
 
-      .card-body ul {
-        list-style: none;
-        margin-right: 25px;
-        color: $gris;
-      }
+  .card .card-body h5 {
+    font-weight: 700;
+    color: $verde-suave;
+    font-family: $texto;
+    font-size: 25px;
+  }
 
-      .col{
-        padding-bottom: 20px;
-      }
+  .card-body ul {
+    list-style: none;
+    margin-right: 25px;
+    color: $gris;
+  }
 
-      .col-12 {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 1rem;
-      }
+  .col {
+    padding-bottom: 20px;
+  }
 
-      .footer-boton {
-        display: flex;
-        justify-content: center;
-      }
+  .col-12 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
 
-      .boton {
-        background-color: $color-boton!important;
-        border: solid;
-        border-color: $azul!important;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-      }
-      
+  .footer-boton {
+    display: flex;
+    justify-content: center;
+  }
+
+  .boton {
+    background-color: $color-boton !important;
+    border: solid;
+    border-color: $azul !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
 }

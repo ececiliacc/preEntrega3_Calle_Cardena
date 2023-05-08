@@ -1,5 +1,5 @@
-.main{
-    &__img-Apadrina{
+.main {
+    &__img-Apadrina {
         width: 400px;
         height: 400px;
         margin-left: 50px;
@@ -16,9 +16,9 @@
 
 }
 
-@media (max-width: 550px){
+@media (max-width: 550px) {
 
-    .main__img-Apadrina{
+    .main__img-Apadrina {
         width: 35vh;
         height: 35vh;
         transform: rotate(0deg);

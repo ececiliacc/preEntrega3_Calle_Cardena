@@ -1,53 +1,58 @@
-.main{
+.main {
     background-color: $fondo;
     min-height: 80vh;
 
 
-    &__banner-Principal{
+    &__banner-Principal {
         width: 100%;
         height: 650px;
         background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%),
-            url("https://res.cloudinary.com/dv3jsid6j/image/upload/v1682865009/proyecto_protectora/principal_wtscc0.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            url("https://res.cloudinary.com/dv3jsid6j/image/upload/v1682865009/proyecto_protectora/principal_wtscc0.jpg");
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size: cover;
         background-attachment: fixed;
         position: relative;
     }
 
-    &__banner-Hacemos{
+    &__banner-Hacemos {
         width: 100%;
         height: 550px;
         background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%),
-            url("https://res.cloudinary.com/dv3jsid6j/image/upload/v1682865009/proyecto_protectora/portada1_adtb5z.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            url("https://res.cloudinary.com/dv3jsid6j/image/upload/v1682865009/proyecto_protectora/portada1_adtb5z.jpg");
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size: cover;
         background-attachment: fixed;
         position: relative;
     }
 
-    &__banner-Adopta{
+    &__banner-Adopta {
         width: 100%;
         height: 550px;
         background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%),
-            url("https://res.cloudinary.com/dv3jsid6j/image/upload/v1682865008/proyecto_protectora/portada2_ef15q2.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            url("https://res.cloudinary.com/dv3jsid6j/image/upload/v1682865008/proyecto_protectora/portada2_ef15q2.jpg");
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size: cover;
         background-attachment: fixed;
         position: relative;
     }
 
-    &__banner-Apadrina{
+    &__banner-Apadrina {
         width: 100%;
         height: 550px;
         background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%),
-          url("https://res.cloudinary.com/dv3jsid6j/image/upload/v1682865009/proyecto_protectora/portada3_zedsit.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            url("https://res.cloudinary.com/dv3jsid6j/image/upload/v1682865009/proyecto_protectora/portada3_zedsit.jpg");
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size: cover;
         background-attachment: fixed;
         position: relative;
     }
 
-    &__banner-Voluntario{
+    &__banner-Voluntario {
         width: 100%;
         height: 550px;
         background: linear-gradient(to top, #a18cd138 0%, #fbc2eb85 100%),
-          url("https://res.cloudinary.com/dv3jsid6j/image/upload/v1682865009/proyecto_protectora/portada4_ncyifu.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            url("https://res.cloudinary.com/dv3jsid6j/image/upload/v1682865009/proyecto_protectora/portada4_ncyifu.jpg");
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size: cover;
         background-attachment: fixed;
         position: relative;
@@ -65,9 +70,9 @@
         font-size: 70px;
         font-weight: bold;
         font-family: $titulo;
-      }
+    }
 
-      .main__titulo2 {
+    .main__titulo2 {
         color: $verde-intenso;
         font-size: 50px;
         text-align: center;
@@ -75,31 +80,31 @@
         padding-top: 50px;
         font-family: $texto;
         padding-bottom: 15px;
-      }
+    }
 
 }
 
-@media (max-width: 550px){
+@media (max-width: 550px) {
 
-    .main{
-        &__banner-Principal{
+    .main {
+        &__banner-Principal {
             background-position: center;
-    
+
         }
-    
-        &__banner-Hacemos{
-            background-position: center;
-        }
-    
-        &__banner-Adopta{
+
+        &__banner-Hacemos {
             background-position: center;
         }
-    
-        &__banner-Apadrina{
+
+        &__banner-Adopta {
             background-position: center;
         }
-    
-        &__banner-Voluntario{
+
+        &__banner-Apadrina {
+            background-position: center;
+        }
+
+        &__banner-Voluntario {
             background-position: center;
         }
 
@@ -110,10 +115,10 @@
             justify-content: space-between;
             flex-direction: column;
             align-items: center;
-          }
+        }
     }
 
-  
 
-   
+
+
 }

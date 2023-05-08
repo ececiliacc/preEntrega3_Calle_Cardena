@@ -1,10 +1,10 @@
-.footer{
+.footer {
     background-color: $color-NF;
     overflow: hidden;
     min-height: 10vh;
     padding-top: 30px;
 
-    &__Section{
+    &__Section {
         display: flex;
         flex-direction: row;
         font-size: 15px;
@@ -13,7 +13,7 @@
         align-items: center;
     }
 
-    &__Contenedor{
+    &__Contenedor {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -21,21 +21,21 @@
         justify-content: space-around;
         padding-right: 10px;
 
-        p{
+        p {
             line-height: 1.5;
             color: #2e2c2c;
             font-size: 20px;
         }
     }
 
-    &__Social{
+    &__Social {
         display: block;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
         flex-wrap: nowrap;
 
-        img{
+        img {
             width: 45px;
             flex-direction: row;
             margin-left: 20px;
@@ -43,10 +43,10 @@
     }
 }
 
-@media (max-width: 550px){
-    .footer{
+@media (max-width: 550px) {
+    .footer {
 
-        &__Section{
+        &__Section {
             display: flex;
             flex-direction: column;
             margin-bottom: 1.5rem;
