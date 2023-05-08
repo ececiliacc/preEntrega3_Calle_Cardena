@@ -141,9 +141,10 @@ header {
 
 @media (max-width: 550px) {
   .main__img-Apadrina {
-    width: 200px;
-    height: 200px;
-    transform: rotate(0deg); } }
+    width: 35vh;
+    height: 35vh;
+    transform: rotate(0deg);
+    margin: 1rem; } }
 
 .main .card .card-body {
   padding: 20px;
@@ -252,3 +253,10 @@ header {
       width: 45px;
       flex-direction: row;
       margin-left: 20px; }
+
+@media (max-width: 550px) {
+  .footer__Section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    align-items: center; } }

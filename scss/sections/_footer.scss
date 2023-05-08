@@ -42,3 +42,16 @@
         }
     }
 }
+
+@media (max-width: 550px){
+    .footer{
+
+        &__Section{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1.5rem;
+            align-items: center;
+        }
+
+    }
+}
