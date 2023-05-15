@@ -105,11 +105,7 @@ header {
 .main__video p {
   line-height: 1.5;
   color: #f8f9f7;
-  font-family: "Montserrat Alternates", sans-serif;
-  font-family: "Open Sans", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "Rammetto One", cursive;
-  font-family: "Slackey", cursive;
+  font-family: "Josefin Sans", sans-serif;
   text-align: justify;
   margin: 1rem; }
 
@@ -134,10 +130,10 @@ header {
     margin-left: 50px;
     margin-right: 70px;
     transform: rotate(353deg);
-    border: 4px solid #82e273;
+    border: 4px solid #AAF683;
     border-radius: 15px; }
   .main .modal-header {
-    background-color: #811485c6; }
+    background-color: #670367; }
 
 @media (max-width: 550px) {
   .main__img-Apadrina {

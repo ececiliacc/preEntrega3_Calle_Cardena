@@ -5,13 +5,13 @@
         margin-left: 50px;
         margin-right: 70px;
         transform: rotate(353deg);
-        border: 4px solid #82e273;
+        border: 4px solid $color-NF;
         border-radius: 15px;
     }
 
     /* Modal */
     .modal-header {
-        background-color: $purpura-modal;
+        background-color: $purpura;
     }
 
 }
